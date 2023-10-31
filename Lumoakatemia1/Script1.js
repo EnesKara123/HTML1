@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ 
 function heiMaailma() {
     console.log("Hei Maailma!");
 }
@@ -104,7 +104,7 @@ console.log(fah);
 
 
 
-=======
+
 function heiMaailma() {
     console.log("Hei Maailma!");
 }
@@ -200,14 +200,55 @@ console.log(yard);
 console.log('------')
 
 
-var cel, fah;
-fah = 74;
-cel = (fah - 32) * 5 / 9;
-console.log(fah);
+
+
+console.log('------')
+
+
+const findMax = (a, b, c) => Math.max(a, b, c);
+
+const luku1 = 10;
+const luku2 = 15;
+const luku3 = 5;
+
+const suurinLuku = findMax(luku1, luku2, luku3);
+console.log(`Suurin luku on: ${suurinLuku}`);
+
+
+console.log("------")
+
+
+function num(ascii) {
+    console.log(String.fromCharCode(ascii));
+}
+num(65);     
+
+
+console.log("------")
+
+
+const readline = require('readline');
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+rl.question('anna s\u00E4de: ', (sade) => {
+    const area = Math.PI * sade * sade;
+    console.log(`se on : ${area}`);
+    rl.close();
+});
+
+
+
+console.log("------")
 
 
 
 
+                
 
 
->>>>>>> 4adbc9de698884c22791a47c8d4f39d4abdd0a51
+
+
