@@ -1,0 +1,33 @@
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: brown;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+input, select {
+	width: 50%;
+	padding: 6px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+button {
+	margin-top: 10px;
+	background-color: brown;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+
+fieldset {
+	margin: 0 auto;
+	width: 300px;
+	background-color: blueviolet;
+}
