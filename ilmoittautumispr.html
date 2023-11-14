@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ilmoittautumislomake</title>
+    <link href="ilmoittautumispr.css" rel="stylesheet" />
+</head>
+<body>
+    <main>
+        <h1>Ilmoittautumislomake kurssiin</h1>
+        <ul>
+            <li>Tee hakemus pian kurssiin! koska vapaita paikkoja tällä hetkellä on tosi vähän, ei muutakun täyttämään hakemuksesi!.</li>
+            <li> Heti kun olet täyttänyt lomakkeessi niin sinun sähköpostiosoitteeseen tulee vahvistus koodi jolla pääset sisään kun sinut valitaan kurssiin.</li>
+            <li>Muista täyttää hakemuksesi ihan oikeilla tiedoilla jotta saatais sinuun yhteyttä kun olemme valinneet sinut, Onnea!</li>
+            
+            
+            </li>
+        </ul>
+        <h1>Koulutuksen ilmoittautuminen</h1>
+        <form>
+            <label for="Sukunimi">Sukunimesi:</label>
+            <input type="text" name="Sukunimi" value="" /><br />
+            <label for="Etunimi">Etunimesi:</label>
+            <input type="text" name="Etunimi" value="" /><br />
+            <label for="Puhelin">Puhelimen numerosi:</label>
+            <input type="text" name="Puhelin" value="" /><br />
+            <label for="Sähköposti">Sähköposti osoitteesi:</label>
+            <input type="email" name="Email" value="" /><br />
+            <label for="tapahtuma">Ilmoittaudun nyt:</label>
+            <input type="checkbox" name="HTML" value="" />
+            <label for="HTML">HTML-koulutuksen</label><br />
+            <input type="checkbox" name="CSS" value="" />
+            <label for="CSS">CSS-koulutuksen</label><br />
+            <input type="checkbox" name="JavaScript" />
+            <label for="JavaScript">JavaScript-koulutuksen</label><br />
+            <label for="maksu">Maksu:</label>
+            <input type="radio" name="maksu" id="itse">
+            <label for="itse">Maksaisin itse</label><br>
+            <input type="radio" name="maksu" id="yritys">
+            <label for="yritys">Yritykseni maksaa</label><br>
+            <input type="radio" name="maksu" id="lahjakortti">
+            <label for="lahjakortti">Minulla olisi lahjakortti</label><br>
+            <label for="taso">Lähtötasosi:</label>
+            <select id="taso">
+                <option value="alkaja">Aloittelija</option>
+                <option value="koodannut">Olen koodanut aiemmin jonkun verran.</option>
+                <option value="guru">Olen ammattilainen ohjelmoinnissa</option>
+            </select><br>
+            <label for="lisatiedot">Lisää Tiedot:</label>
+            <textarea name="lisatiedot" id="" cols="55" rows="10"></textarea><br>
+            <button>Lähetä lomake</button>
+
+
+
+
+
+        </form>
+    </main>
+</body>
+</html>
